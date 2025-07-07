@@ -16,20 +16,42 @@ def esAdulto():
         print ("Eres menor de edad")
 
 
-esAdulto()"""
+esAdulto()
 
-def precioFruta():
+
+
+def esMayor():
+    edad = int(input("¿Cual es tu edad?"))  
+    # 4 espacios
+    if edad >=18:
+        print("Eres mayor de edad")
+    else:
+        print("Eres menor de edad")
+
+esMayor()
+
+def operaciones():
+    num1 = int(input("Ingrese el primer numero: "))
+    num2 = int(input("Ingrese el segundo numero: "))
+    print("suma: ", num1 + num2)
+    print("resta: ", num1 - num2)
+    print("multiplicacion: ", num1 * num2)
+    print("division: ", num1 / num2)
     
-    manzana = int(input("¿Cuanto cuesta la manzana? "))
-    pera = int(input("¿Cuanto cuesta la pera? "))
-    sumaFrutas = manzana + pera
-    if sumaFrutas > 5000:
-        print(f"{sumaFrutas}es mayor que 5000, no comprar")
-    else : 
-        print(f"{sumaFrutas}es menor que 5000, comprar")
+operaciones()"""
+    
+def suma():
+    num1 = int(input("Ingrese el primer numero: "))
+    num2 = int(input("Ingrese el segundo numero: "))
+    print("suma: ", num1 + num2)
+    
+suma()
 
-precioFruta()
+    
 
+    
+    
+    
 
 
 
